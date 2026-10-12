@@ -1,0 +1,1 @@
+document.getElementById("year")?.append(String(new Date().getFullYear()));document.getElementById("signup-form")?.addEventListener("submit",function(e){e.preventDefault();const msg=document.getElementById("form-message");if(msg)msg.textContent="Demonstração: nenhum e-mail foi enviado. Conecte um serviço de newsletter para ativar as inscrições.";});
